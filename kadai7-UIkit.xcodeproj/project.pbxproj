@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8B287A7C2993D81100198A87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287A7B2993D81100198A87 /* AppDelegate.swift */; };
 		8B287A7E2993D81100198A87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287A7D2993D81100198A87 /* SceneDelegate.swift */; };
-		8B287A802993D81100198A87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287A7F2993D81100198A87 /* ViewController.swift */; };
 		8B287A832993D81100198A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B287A812993D81100198A87 /* Main.storyboard */; };
 		8B287A852993D81200198A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B287A842993D81200198A87 /* Assets.xcassets */; };
 		8B287A882993D81200198A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B287A862993D81200198A87 /* LaunchScreen.storyboard */; };
+		8B287AAA2993E49900198A87 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287AA92993E49900198A87 /* PlusViewController.swift */; };
+		8B287AAC2993E4AF00198A87 /* MinusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287AAB2993E4AF00198A87 /* MinusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B287A782993D81100198A87 /* kadai7-UIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kadai7-UIkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B287A7B2993D81100198A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B287A7D2993D81100198A87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B287A7F2993D81100198A87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B287A822993D81100198A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B287A842993D81200198A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B287A872993D81200198A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B287A892993D81200198A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B287AA92993E49900198A87 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		8B287AAB2993E4AF00198A87 /* MinusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				8B287A7B2993D81100198A87 /* AppDelegate.swift */,
 				8B287A7D2993D81100198A87 /* SceneDelegate.swift */,
-				8B287A7F2993D81100198A87 /* ViewController.swift */,
 				8B287A812993D81100198A87 /* Main.storyboard */,
 				8B287A842993D81200198A87 /* Assets.xcassets */,
 				8B287A862993D81200198A87 /* LaunchScreen.storyboard */,
 				8B287A892993D81200198A87 /* Info.plist */,
+				8B287AA92993E49900198A87 /* PlusViewController.swift */,
+				8B287AAB2993E4AF00198A87 /* MinusViewController.swift */,
 			);
 			path = "kadai7-UIkit";
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B287A802993D81100198A87 /* ViewController.swift in Sources */,
+				8B287AAC2993E4AF00198A87 /* MinusViewController.swift in Sources */,
 				8B287A7C2993D81100198A87 /* AppDelegate.swift in Sources */,
+				8B287AAA2993E49900198A87 /* PlusViewController.swift in Sources */,
 				8B287A7E2993D81100198A87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
